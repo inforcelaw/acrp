@@ -21,7 +21,7 @@ bot.on("ready", () => {
             'Welcome to asrp do .help for a list of commands',
             `Watching asrp`,
             `.help for a list of commands`,
-            `asrp is the best server to be part of`,
+            `asrp is the best server to be part of!`,
         ]
         const statuslist = status[Math.floor(Math.random() * status.length)]
         bot.user.setActivity(statuslist)    
